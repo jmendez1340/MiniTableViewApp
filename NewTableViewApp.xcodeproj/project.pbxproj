@@ -14,6 +14,7 @@
 		9646C19C1E6D171F0068BB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9646C19A1E6D171F0068BB7C /* LaunchScreen.storyboard */; };
 		9646C1A71E6D171F0068BB7C /* NewTableViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9646C1A61E6D171F0068BB7C /* NewTableViewAppTests.swift */; };
 		9646C1B21E6D171F0068BB7C /* NewTableViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9646C1B11E6D171F0068BB7C /* NewTableViewAppUITests.swift */; };
+		9646C1C01E6D18700068BB7C /* NameAndTrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9646C1BF1E6D18700068BB7C /* NameAndTrackCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9646C1AD1E6D171F0068BB7C /* NewTableViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTableViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9646C1B11E6D171F0068BB7C /* NewTableViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewAppUITests.swift; sourceTree = "<group>"; };
 		9646C1B31E6D171F0068BB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9646C1BF1E6D18700068BB7C /* NameAndTrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndTrackCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9646C1981E6D171F0068BB7C /* Assets.xcassets */,
 				9646C19A1E6D171F0068BB7C /* LaunchScreen.storyboard */,
 				9646C19D1E6D171F0068BB7C /* Info.plist */,
+				9646C1BF1E6D18700068BB7C /* NameAndTrackCell.swift */,
 			);
 			path = NewTableViewApp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9646C1941E6D171F0068BB7C /* ViewController.swift in Sources */,
+				9646C1C01E6D18700068BB7C /* NameAndTrackCell.swift in Sources */,
 				9646C1921E6D171F0068BB7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
